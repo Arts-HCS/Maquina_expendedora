@@ -14,7 +14,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink1" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink1") >=unidades%}
+                    {%if products.count("drink1") >=unidades[1]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -26,7 +26,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink2" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink2") >=unidades%}
+                    {%if products.count("drink2") >=unidades[2]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -37,7 +37,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink3" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink3") >=unidades%}
+                    {%if products.count("drink3") >=unidades[3]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -48,7 +48,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink4" value="./static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink4") >=unidades%}
+                    {%if products.count("drink4") >=unidades[4]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -59,7 +59,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink5" value="./static/images/pepsi.webp">
                 <figure>
-                    {%if products.count("drink5") >=unidades%}
+                    {%if products.count("drink5") >=unidades[5]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/pepsi.webp" alt="pepsi" class="img small-aprox">
@@ -70,7 +70,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink6" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink6") >=unidades%}
+                    {%if products.count("drink6") >=unidades[6]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -81,7 +81,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink7" value="./static/images/sprite-r.png">
                 <figure>
-                    {%if products.count("drink7") >=unidades%}
+                    {%if products.count("drink7") >=unidades[7]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/sprite-r.png" alt="sprite" class="img small-aprox">
@@ -92,7 +92,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink8" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink8") >=unidades%}
+                    {%if products.count("drink8") >=unidades[8]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -104,7 +104,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink9" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink9") >=unidades%}
+                    {%if products.count("drink9") >=unidades[9]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -115,7 +115,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink10" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink10") >=unidades%}
+                    {%if products.count("drink10") >=unidades[10]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -126,7 +126,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink11" value="../static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink11") >=unidades%}
+                    {%if products.count("drink11") >=unidades[11]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -137,7 +137,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink12" value="./static/images/pepsi.webp">
                 <figure>
-                    {%if products.count("drink12") >=unidades%}
+                    {%if products.count("drink12") >=unidades[12]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/pepsi.webp" alt="pepsi" class="img small-aprox">
@@ -148,7 +148,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink13" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink13") >=unidades%}
+                    {%if products.count("drink13") >=unidades[13]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -159,7 +159,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink14" value="./static/images/sprite-r.png">
                 <figure>
-                    {%if products.count("drink14") >=unidades%}
+                    {%if products.count("drink14") >=unidades[14]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/sprite-r.png" alt="sprite" class="img small-aprox">
@@ -170,7 +170,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink15" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink15") >=unidades%}
+                    {%if products.count("drink15") >=unidades[15]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -182,7 +182,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink16" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink16") >=unidades%}
+                    {%if products.count("drink16") >=unidades[16]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -193,7 +193,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink17" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink17") >=unidades%}
+                    {%if products.count("drink17") >=unidades[17]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -204,7 +204,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink18" value="../static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink18") >=unidades%}
+                    {%if products.count("drink18") >=unidades[18]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -215,7 +215,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink19" value="./static/images/pepsi.webp">
                 <figure>
-                    {%if products.count("drink19") >=unidades%}
+                    {%if products.count("drink19") >=unidades[19]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/pepsi.webp" alt="pepsi" class="img small-aprox">
@@ -226,7 +226,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink20" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink20") >=unidades%}
+                    {%if products.count("drink20") >=unidades[20]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -237,7 +237,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink21" value="./static/images/sprite-r.png">
                 <figure>
-                    {%if products.count("drink21") >=unidades%}
+                    {%if products.count("drink21") >=unidades[21]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/sprite-r.png" alt="sprite" class="img small-aprox">
@@ -248,7 +248,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink22" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink22") >=unidades%}
+                    {%if products.count("drink22") >=unidades[22]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -260,7 +260,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink23" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink23") >=unidades%}
+                    {%if products.count("drink23") >=unidades[23]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -271,7 +271,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink24" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink24") >=unidades%}
+                    {%if products.count("drink24") >=unidades[24]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -282,7 +282,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink25" value="../static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink25") >=unidades%}
+                    {%if products.count("drink25") >=unidades[25]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -293,7 +293,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink26" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink26") >=unidades%}
+                    {%if products.count("drink26") >=unidades[26]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -304,7 +304,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink27" value="./static/images/sprite-r.png">
                 <figure>
-                    {%if products.count("drink27") >=unidades%}
+                    {%if products.count("drink27") >=unidades[27]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/sprite-r.png" alt="sprite" class="img small-aprox">
@@ -315,7 +315,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink28" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink28") >=unidades%}
+                    {%if products.count("drink28") >=unidades[28]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -327,7 +327,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink29" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink29") >=unidades%}
+                    {%if products.count("drink29") >=unidades[29]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -338,7 +338,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink30" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink30") >=unidades%}
+                    {%if products.count("drink30") >=unidades[30]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -349,7 +349,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink31" value="../static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink31") >=unidades%}
+                    {%if products.count("drink31") >=unidades[31]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -360,7 +360,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink32" value="./static/images/pepsi.webp">
                 <figure>
-                    {%if products.count("drink32") >=unidades%}
+                    {%if products.count("drink32") >=unidades[32]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/pepsi.webp" alt="pepsi" class="img small-aprox">
@@ -371,7 +371,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink33" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink33") >=unidades%}
+                    {%if products.count("drink33") >=unidades[33]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -382,7 +382,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink34" value="./static/images/sprite-r.png">
                 <figure>
-                    {%if products.count("drink34") >=unidades%}
+                    {%if products.count("drink34") >=unidades[34]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/sprite-r.png" alt="sprite" class="img small-aprox">
@@ -393,7 +393,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink35" value="./static/images/cocacola.webp">
                 <figure>
-                    {%if products.count("drink35") >=unidades%}
+                    {%if products.count("drink35") >=unidades[35]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/cocacola.webp" alt="coca" 
@@ -405,7 +405,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink36" value="./static/images/drpepper.png">
                 <figure>
-                    {%if products.count("drink36") >=unidades%}
+                    {%if products.count("drink36") >=unidades[36]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/drpepper.png" alt="drpepper" class="img big-aprox">
@@ -416,7 +416,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink37" value="./static/images/fanta.png">
                 <figure>
-                    {%if products.count("drink37") >=unidades%}
+                    {%if products.count("drink37") >=unidades[37]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/fanta.png" alt="fanta" class="img big-aprox">
@@ -427,7 +427,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink38" value="../static/images/gatorad.png">
                 <figure>
-                    {%if products.count("drink38") >=unidades%}
+                    {%if products.count("drink38") >=unidades[38]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/gatorad.png" alt="gatorade" class="img big-aprox">
@@ -438,7 +438,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink39" value="./static/images/pepsi.webp">
                 <figure>
-                    {%if products.count("drink39") >=unidades%}
+                    {%if products.count("drink39") >=unidades[39]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/pepsi.webp" alt="pepsi" class="img small-aprox">
@@ -449,7 +449,7 @@
             <div class="product-container">
                 <input type="hidden" name="drink40" value="./static/images/redbull.png">
                 <figure>
-                    {%if products.count("drink40") >=unidades%}
+                    {%if products.count("drink40") >=unidades[40]%}
                     <img class="img img-vending" src="">
                     {%else%}
                     <img src="./static/images/redbull.png" alt="redbull" class="img xxl-aprox">
@@ -532,8 +532,10 @@
                     {{ error }}
                 {% elif error2 %}
                     {{ error2 }}
-                {%elif mensaje%}
-                    {{ mensaje }}
+                {%elif mensaje1 and mensaje2%}
+                    {{ mensaje1 }}
+                    <br><br>
+                    {{ mensaje2 }}
                 {% endif %}
             </p>
         </div>
